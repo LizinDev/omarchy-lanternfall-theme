@@ -1,0 +1,12 @@
+# Lanternfall override for [tooltip].
+# NOTE: a section override REPLACES the whole section, so every key the
+# generated shell.toml had is restated here. Hex values are copied from
+# colors.toml -- if the palette changes, re-sync this file.
+
+# Hover tooltips across the bar, panels, and buttons. background-alpha of
+# 0.97 mirrors the legacy hard-coded tooltip opacity.
+background       = "#12101f"
+background-alpha = 0.97
+text             = "#b4aecb"
+border           = "#b4aecb"
+border-alpha     = 0.20

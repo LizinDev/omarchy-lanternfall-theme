@@ -1,0 +1,22 @@
+# Lanternfall override for [lock].
+# NOTE: a section override REPLACES the whole section, so every key the
+# generated shell.toml had is restated here. Hex values are copied from
+# colors.toml -- if the palette changes, re-sync this file.
+
+# Lock screen password input. background/background-alpha control the
+# centered input field card; border/border-active/border-error cycle
+# through idle, typing/authenticating, and wrong-password states.
+# border-alpha applies to all three border states (they are mutually
+# exclusive in time).
+background       = "#12101f"
+background-alpha = 0.8
+text             = "#b4aecb"
+placeholder      = "#7d7891"
+text-error       = "#b66654"
+border           = "#544e73"
+border-active    = "hyprland.active-border"
+border-error     = "#b66654"
+border-alpha     = 1.0
+# selection is the text-selection tint inside the input field.
+selection        = "#c07b55"
+selection-alpha  = 0.45

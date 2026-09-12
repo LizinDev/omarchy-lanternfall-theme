@@ -1,0 +1,21 @@
+# Lanternfall override for [launcher].
+# NOTE: a section override REPLACES the whole section, so every key the
+# generated shell.toml had is restated here. Hex values are copied from
+# colors.toml -- if the palette changes, re-sync this file.
+
+# Same six tokens as [menu], applied to the launcher overlay. Alpha
+# companions go from 0 (invisible) to 1 (opaque). scrim is the full-screen
+# dim layer behind the card; background is the card itself. Defaults
+# mirror [menu] with the card at 0.95 to preserve the legacy translucency.
+background                = "#12101f"
+background-alpha          = 0.95
+text                      = "#b4aecb"
+border                    = "#b4aecb"
+border-alpha              = 0.25
+scrim                     = "#12101f"
+scrim-alpha               = 0.5
+selected-background       = "#b4aecb"
+selected-background-alpha = 0.08
+selected-text             = "#c07b55"
+selected-border           = "#c07b55"
+selected-border-alpha     = 0.50

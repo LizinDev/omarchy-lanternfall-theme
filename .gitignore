@@ -1,0 +1,8 @@
+*.bak
+*~
+.DS_Store
+
+# The source wallpaper is the artist's work, not ours - kept locally, never published.
+# 2-lanternfall-dim.png is derived from it, so it stays local too.
+backgrounds/1-lanternfall.png
+backgrounds/2-lanternfall-dim.png
