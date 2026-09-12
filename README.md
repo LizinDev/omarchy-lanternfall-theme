@@ -66,9 +66,13 @@ pixel edges into thousands of intermediate colors. Find the native grid by
 round-tripping (`-filter point` down by N and back up; lowest RMSE wins), then:
 
 ```bash
-magick wall.jpg -colorspace RGB -filter Box -resize <native>! -colorspace sRGB \
-  +dither -colors 128 -filter point -resize <N>00% wall-restored.png
+magick wall.jpg -statistic median 3x3 -filter point -resize <native>! \
+  +dither -colors 192 -filter point -resize <N>00% wall-restored.png
 ```
+
+Use `median` + point sampling rather than `-filter Box -resize`: Box's support
+window is wider than the exact block, so it blends neighbouring native pixels and
+destroys the intentional dithering most pixel art uses for gradients.
 
 ## Caveats
 
