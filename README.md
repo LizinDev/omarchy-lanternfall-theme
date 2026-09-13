@@ -103,6 +103,18 @@ contrast reading.
 
 ## Credits
 
-The palette was sampled from a pixel-art wallpaper and then hand-tuned for
-contrast and hue separation. That artwork is not included here — see *Backgrounds*.
+The palette was sampled from a scene in **Mark J. Ferrari's** *Seize the Day*
+series — 8-bit colour-cycling and palette-shifting art drawn in Deluxe Paint II
+between 1994 and 1996 for Seize The Day & Realtime Associates. His archive is at
+<https://www.markferrari.com/image-archives>.
+
+**His images are copyright © Mark J. Ferrari and explicitly marked "do not
+redistribute", so none of that artwork is in this repository.** There is no
+wallpaper here, and `preview.png` is a palette specimen rather than a crop of the
+image. What this theme carries is a colour palette derived from the scene and then
+hand-tuned for contrast and hue separation — the wallpaper itself you should get
+from the artist's own archive.
+
+If you like this palette, go look at his work. The colour-cycling pieces are worth
+your time in motion, which a static theme cannot convey.
 
