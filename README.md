@@ -15,6 +15,10 @@ accent reads as lantern light against a desaturated field.
 omarchy theme install https://github.com/LizinDev/omarchy-lanternfall-theme.git
 ```
 
+Installing applies the theme right away. To switch back to it later, run
+`omarchy theme set lanternfall`; to uninstall it, run
+`omarchy theme remove lanternfall`.
+
 Or clone it anywhere and symlink it in — see *Working on it* below.
 
 ## Palette
@@ -118,3 +122,7 @@ from the artist's own archive.
 If you like this palette, go look at his work. The colour-cycling pieces are worth
 your time in motion, which a static theme cannot convey.
 
+## License
+
+The theme files are released under the [MIT License](LICENSE). Mark J. Ferrari's artwork
+is not in this repository and the license does not cover it.
