@@ -46,6 +46,7 @@ as Omarchy's theming docs require for a dark theme.
 | `hyprland.lua` | border gradient + a warm shadow on the focused window |
 | `shell.{menu,launcher,tooltip,lock}.toml` | per-section shell overrides |
 | `backgrounds/` | a palette-derived gradient (see *Backgrounds* below) |
+| `icons.theme` | `Yaru-purple-dark` |
 | `preview.png` | theme-switcher tile |
 | `unlock.png` | Plymouth boot splash and SDDM logo |
 
