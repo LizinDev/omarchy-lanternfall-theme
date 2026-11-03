@@ -49,6 +49,7 @@ as Omarchy's theming docs require for a dark theme.
 | `icons.theme` | `Yaru-purple-dark` |
 | `preview.png` | theme-switcher tile |
 | `unlock.png` | Plymouth boot splash and SDDM logo |
+| `preview-unlock.png` | the boot splash's preview, which lists the theme in `omarchy plymouth list` |
 
 ## Backgrounds
 
