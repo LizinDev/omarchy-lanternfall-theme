@@ -42,7 +42,7 @@ as Omarchy's theming docs require for a dark theme.
 
 | File | |
 |---|---|
-| `colors.toml` | the palette — generates 17 app configs on its own |
+| `colors.toml` | the palette Omarchy uses to render its installed app templates |
 | `hyprland.lua` | border gradient + a warm shadow on the focused window |
 | `shell.{menu,launcher,tooltip,lock}.toml` | per-section shell overrides |
 | `backgrounds/` | a palette-derived gradient (see *Backgrounds* below) |
@@ -60,12 +60,13 @@ by paper lanterns — but that is someone else's work and is not redistributed h
 To use it, find a dark pixel-art wallpaper you like and drop it in:
 
 ```bash
-cp <your-wallpaper> ~/.config/omarchy/themes/lanternfall/backgrounds/1-lanternfall.png
+mkdir -p ~/.config/omarchy/backgrounds/lanternfall
+cp ~/Pictures/wallpaper.png ~/.config/omarchy/backgrounds/lanternfall/1-lanternfall.png
 omarchy theme set lanternfall
+omarchy theme bg set ~/.config/omarchy/backgrounds/lanternfall/1-lanternfall.png
 ```
 
-Backgrounds are picked in plain lexical order, so the numeric prefix decides which
-one appears first. Cycle them with `Super + Ctrl + Space`.
+Cycle through personal and bundled backgrounds with `Super + Ctrl + Space`.
 
 If your wallpaper is a JPEG of pixel art, it is probably damaged — JPEG smears hard
 pixel edges into thousands of intermediate colors. Find the native grid by
